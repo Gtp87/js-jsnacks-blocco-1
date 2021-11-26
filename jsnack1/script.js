@@ -2,12 +2,27 @@
 
 const container = document.querySelector('.container');
 
+// ciclo for
+// let somma = 0;
+// for (let index = 0; index <10; index++) {
+//     let numero = parseInt(prompt('inserisci un numero'));
+//     somma += numero;
+// }
+
+// console.log(somma);
+
+// container.innerHTML += somma;
+
+
+// ciclo while
+let contatore = 0;
 let somma = 0;
-for (let index = 0; index <10; index++) {
-    let number = parseInt(prompt('inserisci un numero'));
-    somma += number;
+
+while (contatore < 10) {
+    let numero = parseInt(prompt('inserisci un numero'));
+    somma += numero;
+    contatore++;
 }
 
 console.log(somma);
-
 container.innerHTML += somma;

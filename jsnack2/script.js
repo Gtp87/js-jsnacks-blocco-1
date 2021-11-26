@@ -27,12 +27,12 @@ const nomeUtente = prompt('inserire proprio nome');
 let find = false;
 let i = 0;
 
-while (find == false && i < invitati.lenght) {
-    if (invitati[i] == nomeUtente) {
-        find = true;
-        nome = invitati[i];
-    }
-    i++;
+while (find == false && i < invitati.length)
+{
+  if (invitati[i] == nomeUtente) {
+      find = true;
+  }
+  i++;
 }
 
 if (find == true) {
